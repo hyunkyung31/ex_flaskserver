@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block header %}
+<title>Item 수정폼</title> 
+{% endblock header %}
+{% block contents %}
+<h1>Item 수정폼 </h1> 
+<form method="POST" action="/item_update"> <!--변경할 값을 가지고 있는게 POST방식-->
+    <input type="hidden" name="username" value="{{ item[0] }}">
+
+    <p>이름: {{ item[0] }}</p>
+
+    <p>
+        설명 수정:
+        <input type="text" name="description" value="{{ item[1] }}">
+    </p>
+
+    <button type="submit">수정 완료</button>
+</form>
+{% endblock contents %}

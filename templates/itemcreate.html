@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block header %}
+<title> Item 입력 폼 </title>
+{% endblock header %}
+{% block contents %}
+<h1> Item 입력폼</h1>
+<form method = "POST" action = "{{ url_for('item_crud') }}">
+    {{ form.csrf_token }} <!--해킹방지 / 보안을 위해서 자동으로 토큰 붙여주는거 안써주면 작동 안한다-->
+    {{ form.username.label }}
+    {{ form.username }}
+    <br><br>
+    {{ form.description.label }}
+    {{ form.description }}
+    <br><br>
+    {{ form.submit }}
+</form>
+
+{% endblock contents %}

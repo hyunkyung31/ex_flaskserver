@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block header %}
+<title>대전미래융합교육원</title>
+{% endblock header %}
+{% block contents %}
+    안녕하세요. flask 서버입니다 <br>
+{% endblock contents %}
+{% block explain_contents %}
+<center>
+<img src="{{ url_for('static', filename = 'images/logo.jpg') }}" alt = "logo">
+</center>
+{% endblock explain_contents %}

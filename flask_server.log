@@ -1,0 +1,362 @@
+[2026-04-15 11:49:46,392] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-15 11:49:46,392] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-15 11:49:46,404] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 11:49:46,720] WARNING in _internal:  * Debugger is active!
+[2026-04-15 11:49:46,724] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 11:50:02,614] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-15 11:50:02,615] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-15 11:50:02,622] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 11:50:02,892] WARNING in _internal:  * Debugger is active!
+[2026-04-15 11:50:02,895] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 11:50:21,804] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 11:50:21,805] INFO in flask_server: [GET] /
+[2026-04-15 11:50:21,808] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 11:50:21] "GET / HTTP/1.1" 200 -
+[2026-04-15 11:50:21,888] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 11:50:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-04-15 11:50:32,913] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 11:50:32,914] INFO in flask_server: [GET] /
+[2026-04-15 11:50:32,914] INFO in _internal: 192.168.0.25 - - [15/Apr/2026 11:50:32] "GET / HTTP/1.1" 200 -
+[2026-04-15 11:50:33,004] INFO in _internal: 192.168.0.25 - - [15/Apr/2026 11:50:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-04-15 12:19:35,911] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-15 12:19:35,911] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-15 12:19:35,919] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 12:19:36,192] WARNING in _internal:  * Debugger is active!
+[2026-04-15 12:19:36,195] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 12:19:43,520] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 12:19:43,521] INFO in flask_server: [GET] /
+[2026-04-15 12:19:43,540] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 12:19:43] "GET / HTTP/1.1" 200 -
+[2026-04-15 12:19:43,579] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 12:19:43] "GET /static/images/logo.jpg HTTP/1.1" 200 -
+[2026-04-15 12:20:11,105] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 12:20:11,106] INFO in flask_server: [GET] /
+[2026-04-15 12:20:11,110] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 12:20:11] "GET / HTTP/1.1" 200 -
+[2026-04-15 12:20:11,118] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 12:20:11] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 12:20:46,213] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 12:20:46,213] INFO in flask_server: [GET] /
+[2026-04-15 12:20:46,217] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 12:20:46] "GET / HTTP/1.1" 200 -
+[2026-04-15 12:20:46,225] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 12:20:46] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 12:40:40,169] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 12:40:40,170] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 12:40:40,170] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 12:40:41,024] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 12:40:41,308] WARNING in _internal:  * Debugger is active!
+[2026-04-15 12:40:41,311] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 12:40:46,156] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 12:40:46,156] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 12:40:46,157] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 12:40:46,379] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 13:41:56,442] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-15 13:41:56,443] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-15 13:41:56,451] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 13:41:56,717] WARNING in _internal:  * Debugger is active!
+[2026-04-15 13:41:56,720] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 13:42:07,406] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 13:42:07,406] INFO in flask_server: [GET] /
+[2026-04-15 13:42:07,413] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 13:42:07] "GET / HTTP/1.1" 200 -
+[2026-04-15 13:42:07,461] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 13:42:07] "GET /static/images/logo.jpg HTTP/1.1" 200 -
+[2026-04-15 13:42:39,991] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 13:42:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-15 13:43:02,984] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 13:43:02,984] INFO in flask_server: [GET] /
+[2026-04-15 13:43:02,985] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 13:43:02] "GET / HTTP/1.1" 200 -
+[2026-04-15 13:43:02,996] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 13:43:02] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 13:43:03,037] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 13:43:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-15 14:00:42,437] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:00:42,438] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:00:42,438] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:00:42,708] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 14:00:42,992] WARNING in _internal:  * Debugger is active!
+[2026-04-15 14:00:42,995] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 14:00:52,220] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 14:00:52,220] INFO in flask_server: [GET] /
+[2026-04-15 14:00:52,228] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 14:00:52] "GET / HTTP/1.1" 200 -
+[2026-04-15 14:00:52,279] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 14:00:52] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 14:01:27,084] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 14:01:27] "[33mGET /create_table HTTP/1.1[0m" 404 -
+[2026-04-15 14:01:30,948] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 14:01:30,948] INFO in flask_server: [GET] /
+[2026-04-15 14:01:30,949] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 14:01:30] "GET / HTTP/1.1" 200 -
+[2026-04-15 14:01:30,958] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 14:01:30] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 14:01:44,812] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 14:01:44] "GET /createtable HTTP/1.1" 200 -
+[2026-04-15 14:07:49,652] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 14:07:49] "GET /createtable HTTP/1.1" 200 -
+[2026-04-15 14:10:03,694] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 14:10:03] "GET /set_cookie HTTP/1.1" 200 -
+[2026-04-15 14:10:20,145] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 14:10:20] "GET /createtable HTTP/1.1" 200 -
+[2026-04-15 14:10:23,820] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:10:23,830] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:10:23,831] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:10:24,378] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 14:10:24,674] WARNING in _internal:  * Debugger is active!
+[2026-04-15 14:10:24,677] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 14:21:09,759] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:21:09,760] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:21:09,760] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:21:10,418] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 14:21:10,723] WARNING in _internal:  * Debugger is active!
+[2026-04-15 14:21:10,726] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 14:21:16,178] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:21:16,187] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:21:16,187] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 14:21:16,787] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:03:38,450] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-15 15:03:38,451] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-15 15:03:38,462] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:03:38,841] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:03:38,843] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:03:41,180] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:03:41,180] INFO in flask_server: [GET] /
+[2026-04-15 15:03:41,187] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:41] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:03:41,237] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:41] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:03:43,160] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:03:43,160] INFO in flask_server: [GET] /
+[2026-04-15 15:03:43,161] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:43] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:03:43,170] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:43] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:03:43,761] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:43] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:03:46,904] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:46] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:03:47,125] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:47] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:03:47,440] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:03:47,441] INFO in flask_server: [GET] /
+[2026-04-15 15:03:47,441] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:47] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:03:47,448] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:47] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:03:47,913] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:47] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:03:48,883] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:48] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:03:49,345] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:03:49,345] INFO in flask_server: [GET] /
+[2026-04-15 15:03:49,345] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:49] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:03:49,353] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:49] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:03:49,491] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:49] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:03:49,648] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:49] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:03:51,779] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:51] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:03:52,028] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:52] "POST /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:03:59,572] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:03:59,572] INFO in flask_server: [GET] /
+[2026-04-15 15:03:59,573] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:59] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:03:59,579] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:03:59] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:04:00,010] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:04:00] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:04:01,828] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:04:01] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:04:02,822] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:04:02] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:04:04,833] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:04:04] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:04:05,448] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:04:05] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:06:23,707] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:06:23,707] INFO in flask_server: [GET] /
+[2026-04-15 15:06:23,708] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:06:23] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:06:23,732] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:06:23] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:06:25,036] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:06:25] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:06:26,000] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:06:26] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:06:28,497] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:06:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-15 15:08:05,877] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:08:05,887] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:08:05,887] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:08:06,636] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:09:56,367] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-15 15:09:56,367] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-15 15:09:56,376] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:09:56,722] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:09:56,725] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:09:59,133] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:09:59,133] INFO in flask_server: [GET] /
+[2026-04-15 15:09:59,140] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:09:59] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:09:59,190] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:09:59] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:10:00,459] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:10:00] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:10:10,620] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:10:10] "POST /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:10:15,261] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:10:15] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:10:31,105] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:31,114] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:31,114] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:31,889] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:10:32,257] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:10:32,260] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:10:41,097] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:41,106] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:41,106] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:41,367] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:10:41,781] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:10:41,784] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:10:46,395] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:46,396] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:46,856] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:10:47,206] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:10:47,208] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:10:47,480] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:47,489] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:47,490] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:48,274] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:10:48,641] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:10:48,644] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:10:51,391] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:51,392] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:51,698] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:10:52,061] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:10:52,064] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:10:57,663] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:57,664] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:57,672] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:10:58,133] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:10:58,499] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:10:58,502] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:11:04,702] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:11:04,712] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:11:04,713] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:11:05,577] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:11:05,959] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:11:05,963] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:11:07,851] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:11:07,860] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:11:07,860] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:11:08,018] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:11:08,369] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:11:08,372] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:11:11,228] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:11] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:11:13,443] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:13] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:11:13,770] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:13] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:11:25,029] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:25] "[35m[1mPOST /item_crud HTTP/1.1[0m" 500 -
+[2026-04-15 15:11:25,073] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:25] "GET /item_crud?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-04-15 15:11:25,074] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:25] "GET /item_crud?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-04-15 15:11:25,093] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:25] "GET /item_crud?__debugger__=yes&cmd=resource&f=console.png&s=yRDpEALTlQE1gOY8J7WC HTTP/1.1" 200 -
+[2026-04-15 15:11:25,101] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:25] "GET /item_crud?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-04-15 15:11:30,122] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:30] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:11:34,176] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:34] "[33mGET /item_update?username=현경이&1= HTTP/1.1[0m" 404 -
+[2026-04-15 15:11:35,864] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:35] "[33mGET /item_update?username=김미래&2= HTTP/1.1[0m" 404 -
+[2026-04-15 15:11:53,821] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:11:53] "[33mGET /item_update?username=현경이&1= HTTP/1.1[0m" 404 -
+[2026-04-15 15:12:07,192] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:12:07] "[33mGET /item_delete?username=1&1= HTTP/1.1[0m" 404 -
+[2026-04-15 15:12:57,951] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:12:57,960] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:12:57,961] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:12:58,741] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:12:59,102] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:12:59,105] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:13:13,287] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:13:13,288] INFO in flask_server: [GET] /
+[2026-04-15 15:13:13,295] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:13:13] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:13:13,329] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:13:13] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:13:13,897] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:13:13] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:13:15,767] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:13:15] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:13:17,264] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:13:17] "[33mGET /item_update?username=현경이&1= HTTP/1.1[0m" 404 -
+[2026-04-15 15:13:20,721] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:13:20] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:13:31,139] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:13:31] "[32mPOST /item_crud HTTP/1.1[0m" 302 -
+[2026-04-15 15:13:32,204] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:13:32] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:13:37,562] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:13:37] "[33mGET /item_delete?username=3&3= HTTP/1.1[0m" 404 -
+[2026-04-15 15:14:29,280] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:14:29,280] INFO in flask_server: [GET] /
+[2026-04-15 15:14:29,281] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:14:29] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:14:29,289] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:14:29] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:14:30,193] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:14:30] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:16:46,429] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-15 15:16:46,429] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-15 15:16:46,439] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:16:46,805] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:16:46,808] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:16:49,179] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:16:49,179] INFO in flask_server: [GET] /
+[2026-04-15 15:16:49,186] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:16:49] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:16:49,234] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:16:49] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:16:50,482] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:16:50] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:16:52,252] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:16:52] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:16:56,721] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:16:56] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:17:17,185] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-15 15:17:17,185] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-15 15:17:17,196] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:17:17,539] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:17:17,542] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:17:18,799] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:17:18,800] INFO in flask_server: [GET] /
+[2026-04-15 15:17:18,806] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:17:18] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:17:18,858] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:17:18] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:17:20,450] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:17:20] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:17:21,062] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:17:21] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:17:22,657] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:17:22] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-15 15:30:28,047] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:30:28] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:30:28,845] INFO in flask_server: 성공 logged in successfully
+[2026-04-15 15:30:28,845] INFO in flask_server: [GET] /
+[2026-04-15 15:30:28,846] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:30:28] "GET / HTTP/1.1" 200 -
+[2026-04-15 15:30:28,854] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:30:28] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-15 15:30:30,281] INFO in _internal: 127.0.0.1 - - [15/Apr/2026 15:30:30] "GET /item_create HTTP/1.1" 200 -
+[2026-04-15 15:35:29,320] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:29,328] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:29,329] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:30,055] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:35:30,434] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:35:30,438] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:35:34,839] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:34,839] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:35,505] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:35:35,868] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:35:35,871] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:35:35,915] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:35,923] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:35,924] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:36,927] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:35:37,305] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:35:37,308] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:35:40,173] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:40,173] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:40,174] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:40,367] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:35:40,726] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:35:40,729] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:35:42,245] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:42,254] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:42,254] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:35:42,790] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:35:43,147] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:35:43,150] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:36:25,467] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:25,475] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:25,476] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:26,355] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:36:26,710] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:36:26,713] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:36:29,805] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:29,814] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:29,815] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:30,781] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:36:31,133] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:36:31,135] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:36:40,133] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:40,141] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:40,142] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:40,210] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:36:40,558] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:36:40,561] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:36:51,107] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:51,116] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:51,117] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:51,642] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:36:52,020] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:36:52,023] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:36:53,088] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:53,089] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:53,089] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:36:54,081] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:36:54,443] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:36:54,446] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:37:03,547] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:37:03,556] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:37:03,557] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:37:04,525] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:37:04,883] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:37:04,886] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-15 15:37:37,876] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:37:37,886] INFO in _internal:  * Detected change in 'C:\\flaskserver\\flask_server.py', reloading
+[2026-04-15 15:37:38,081] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2026-04-15 15:37:38,430] WARNING in _internal:  * Debugger is active!
+[2026-04-15 15:37:38,433] INFO in _internal:  * Debugger PIN: 436-167-296

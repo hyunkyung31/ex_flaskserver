@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block header %}
+<title>Item read/update/delete</title> 
+{% endblock header %}
+{% block contents %}
+<table class="table">
+    <thead>
+      <tr>
+        <th>번호</th> <th>이름</th><th>description</th><th>수정</th><th>삭제</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for item in data %}          
+      <tr>
+          <td>{{ item[0] }}</td>  <td>{{ item[1] }} </td> <td>{{ item[2] }}</td>  
+          <td><form action="/item_update" method="GET">
+               <input type="hidden" name="username" value="{{ item[1] }}"> <!-- hidden은 나타나지 않는데 어떤게 눌러졌는지는 알아야한다
+                                                        1번을 히든에다가 들어간다-->
+               <button type="submit" id="updateBtn{{ item[1] }}" 
+               name= '{{ item[0] }}'>description 수정</button> <!-- 수정을 누르면 get방식으로 넘어가서 item 업데이트 되는걸로 넘어가야-->
+              </form>
+            </td>
+          <td><form action="/item_delete" method="GET">
+               <input type="hidden" name="username" value="{{ item[1] }}">
+               <button type="submit" id="deleteBtn{{ item[1] }}" 
+                 name= '{{ item[0]}}'> description 삭제</button></td>
+              </form>
+         </tr>
+      </tr>
+    {% endfor %}    
+    </tbody>
+  </table>
+{% endblock contents %}
