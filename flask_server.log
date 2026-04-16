@@ -360,3 +360,49 @@
 [2026-04-15 15:37:38,081] INFO in _internal:  * Restarting with watchdog (windowsapi)
 [2026-04-15 15:37:38,430] WARNING in _internal:  * Debugger is active!
 [2026-04-15 15:37:38,433] INFO in _internal:  * Debugger PIN: 436-167-296
+[2026-04-16 10:44:46,802] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 10:44:46,802] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 10:44:46,803] INFO in _internal:  * Restarting with stat
+[2026-04-16 10:44:47,058] WARNING in _internal:  * Debugger is active!
+[2026-04-16 10:44:47,060] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 10:44:48,954] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 10:44:48,955] INFO in flask_server: [GET] /
+[2026-04-16 10:44:48,970] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 10:44:48] "GET / HTTP/1.1" 200 -
+[2026-04-16 10:44:48,999] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 10:44:48] "GET /static/images/logo.jpg HTTP/1.1" 200 -
+[2026-04-16 10:44:49,043] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 10:44:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-04-16 10:44:51,592] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 10:44:51] "GET /bootstraps HTTP/1.1" 200 -
+[2026-04-16 10:45:05,313] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 10:45:05,342] INFO in _internal:  * Restarting with stat
+[2026-04-16 10:45:05,645] WARNING in _internal:  * Debugger is active!
+[2026-04-16 10:45:05,648] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 10:45:10,731] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 10:45:10,763] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:06:16,433] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 11:06:16,434] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 11:06:16,435] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:06:16,714] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:06:16,717] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:06:18,433] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 11:06:18,434] INFO in flask_server: [GET] /
+[2026-04-16 11:06:18,443] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:18] "GET / HTTP/1.1" 200 -
+[2026-04-16 11:06:18,482] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:18] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 11:06:20,263] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:20] "GET /bootstraps HTTP/1.1" 200 -
+[2026-04-16 11:06:23,911] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:23] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-16 11:06:25,795] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:25] "GET /item_create HTTP/1.1" 200 -
+[2026-04-16 11:06:26,454] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 11:06:26,455] INFO in flask_server: [GET] /
+[2026-04-16 11:06:26,455] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:26] "GET / HTTP/1.1" 200 -
+[2026-04-16 11:06:26,470] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:26] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 11:06:27,479] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:27] "GET /bootstraps HTTP/1.1" 200 -
+[2026-04-16 11:06:55,937] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 11:06:55,938] INFO in flask_server: [GET] /
+[2026-04-16 11:06:55,941] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:55] "GET / HTTP/1.1" 200 -
+[2026-04-16 11:06:55,956] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:55] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 11:10:51,284] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 11:10:51,317] INFO in _internal:  * Restarting with stat

@@ -204,7 +204,20 @@ def item_delete():
 
         return redirect(url_for("item_crud"))
 
+@app.route("/bootstraps")
+def bootstraps():
+    return render_template("bootstraps.html")
 
+@app.route('/ajaxcall')
+def ajaxcall():
+    return render_template('ajax.html')
+
+@app.route('/_add_numbers')
+def add_numbers():
+    a = request.args.get('a', 0, type=int)
+    b = request.args.get('b', 0, type=int)
+    #{'result:30}
+    return jsonify(result = a + b)
 
 if __name__ == '__main__': #얘가 메인페이지면 flask서버를 기동해라
     app.run('0.0.0.0', port=5000, debug=True, use_reloader=True) #debug면 에러가 나면 브라우저에 설명을 달아라 (개발할때 필요), 
