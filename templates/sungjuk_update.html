@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block explain_contents %}
+  <table class="table">
+    <thead>
+      <tr>
+        <th>번호</th><th>이름</th> <th>국어</th> <th>영어</th> <th>수학</th> 
+        <th>총점</th> <th>평균</th> <th>학점</th><th>학교코드</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for sungjuk in object_list %}  
+    <tr>   
+    <td>{{ sungjuk[0] }}</td>  <td>{{ sungjuk[1] }} </td> <td>{{ sungjuk[2] }}</td>  
+    <td>{{ sungjuk[3] }}</td>  <td>{{ sungjuk[4] }}</td>  <td>{{ sungjuk[5] }} </td> 
+    <td>{{ sungjuk[6] }}</td>  <td>{{ sungjuk[7] }}</td>  <td>{{ sungjuk[8] }}</td>
+    </tr>
+
+    {% endfor %} 
+    </table>
+
+    <h5>변경할 이름을 입력하시요 </h5>  
+    <table>
+     <form name="myForm" id="myForm" action="/sungjuk_update_result" method="post">
+      <tr>
+        <td> 이름 : <input type="text"   id="name" name="name"  size="10"></td>
+        <td>  <input type="hidden"   id="bunho" name="bunho"  size="10" value={{ object_list[0][0] }}></td>
+        <td> <button type="submit" id="updateBtn"> "성적  수정"</button> </td>
+      </tr>
+     </form>
+    </table>
+    </tbody>
+
+{% endblock explain_contents %}  

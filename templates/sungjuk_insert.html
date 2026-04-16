@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block explain_contents %}
+  <h5>성적 테이블 </h5>
+  <table>
+   <form  id="myForm" name="myForm" action="/sungjuk_insert" method="post">
+    <tr>
+      <td> 이름 : <input type="text"   id="name1" name="name1"    size="10"></td>
+      <td> 국어 : <input type="number"   id="kor1"  name="kor1"   size="10"></td>
+      <td> 수학 : <input type="number"   id="mat1"  name="mat1"   size="10"></td>
+      <td> 영어 : <input type="number"   id="eng1"  name="eng1"   size="10"></td>
+      <td> 학교코드 : <input type="text"   id="schoolcode1"  name="schoolcode1"   size="10"></td>
+      <td> <button type="submit" id="insertBtn"> "성적  등록"</button> </td>
+    </tr>
+   </form>
+  </table>
+{% endblock explain_contents %}  

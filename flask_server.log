@@ -406,3 +406,1362 @@
 [2026-04-16 11:06:55,956] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:06:55] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
 [2026-04-16 11:10:51,284] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
 [2026-04-16 11:10:51,317] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:16:01,959] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 11:16:01,959] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 11:16:01,960] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:16:02,217] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:16:02,219] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:16:03,661] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 11:16:03,661] INFO in flask_server: [GET] /
+[2026-04-16 11:16:03,669] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:16:03] "GET / HTTP/1.1" 200 -
+[2026-04-16 11:16:03,704] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:16:03] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 11:16:05,298] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:16:05] "[35m[1mGET /ajaxcall HTTP/1.1[0m" 500 -
+[2026-04-16 11:16:05,309] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:16:05] "GET /ajaxcall?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-04-16 11:16:05,310] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:16:05] "GET /ajaxcall?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-04-16 11:16:05,318] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:16:05] "GET /ajaxcall?__debugger__=yes&cmd=resource&f=console.png&s=CFc1mGzDALKGCwOiT1IX HTTP/1.1" 200 -
+[2026-04-16 11:16:05,350] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:16:05] "GET /ajaxcall?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-04-16 11:16:55,984] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 11:16:56,012] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:16:56,275] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:16:56,278] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:19:22,268] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 11:19:22,268] INFO in flask_server: [GET] /
+[2026-04-16 11:19:22,276] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:19:22] "GET / HTTP/1.1" 200 -
+[2026-04-16 11:19:22,313] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:19:22] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 11:19:23,930] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:19:23] "[35m[1mGET /ajaxcall HTTP/1.1[0m" 500 -
+[2026-04-16 11:19:23,942] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:19:23] "[36mGET /ajaxcall?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 11:19:23,943] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:19:23] "[36mGET /ajaxcall?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-16 11:19:23,967] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:19:23] "GET /ajaxcall?__debugger__=yes&cmd=resource&f=console.png&s=Sw3d3UCoBSIKSCoxJgJW HTTP/1.1" 200 -
+[2026-04-16 11:21:08,673] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 11:21:08,702] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:21:08,993] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:21:08,996] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:21:10,662] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:21:10] "GET /ajaxcall HTTP/1.1" 200 -
+[2026-04-16 11:21:15,050] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:21:15] "GET /_add_numbers?a=10&b=20 HTTP/1.1" 200 -
+[2026-04-16 11:35:00,887] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 11:35:00,888] INFO in flask_server: [GET] /
+[2026-04-16 11:35:00,891] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:35:00] "GET / HTTP/1.1" 200 -
+[2026-04-16 11:35:00,931] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 11:35:00] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 11:37:06,791] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:37:06,820] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:37:07,096] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:37:07,099] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:37:24,353] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:37:24,391] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:37:24,675] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:37:24,677] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:37:30,782] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:37:30,818] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:37:31,097] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:37:31,100] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:37:32,139] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:37:32,166] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:37:32,435] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:37:32,438] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:37:34,485] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:37:34,515] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:37:34,788] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:37:34,791] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:37:35,826] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:37:35,855] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:37:36,142] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:37:36,144] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:37:48,331] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:37:48,362] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:37:48,635] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:37:48,637] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:37:52,712] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:37:52,739] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:37:52,997] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:37:53,000] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:37:57,091] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:37:57,123] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:37:57,394] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:37:57,397] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:04,514] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:04,543] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:04,803] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:04,806] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:14,982] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:15,011] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:15,303] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:15,305] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:19,387] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:19,414] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:19,680] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:19,683] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:22,753] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:22,780] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:23,039] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:23,042] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:29,149] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:29,178] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:29,463] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:29,466] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:43,661] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:43,689] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:43,958] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:43,960] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:49,053] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:49,079] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:49,379] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:49,383] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:51,460] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:51,486] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:51,758] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:51,761] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:53,808] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:53,848] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:54,127] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:54,130] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:55,170] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:55,197] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:55,461] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:55,464] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:57,510] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:57,544] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:57,816] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:57,819] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:38:58,852] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:38:58,879] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:38:59,149] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:38:59,151] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:00,183] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:00,211] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:00,511] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:00,514] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:02,564] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:02,593] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:02,855] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:02,858] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:03,894] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:03,920] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:04,186] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:04,188] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:06,233] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:06,265] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:06,531] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:06,533] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:09,591] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:09,619] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:09,897] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:09,900] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:12,970] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:13,000] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:13,255] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:13,258] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:17,335] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:17,362] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:17,640] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:17,643] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:22,736] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:22,762] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:23,027] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:23,030] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:26,093] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:26,121] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:26,394] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:26,397] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:32,520] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:32,547] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:32,820] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:32,823] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:35,888] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:35,921] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:36,192] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:36,195] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:38,249] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:38,278] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:38,550] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:38,554] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:39,590] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:39,617] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:39,891] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:39,893] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:41,945] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:41,972] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:42,252] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:42,256] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:45,324] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:45,353] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:45,611] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:45,614] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:49,689] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:49,716] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:49,977] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:49,980] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:55,058] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:55,084] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:55,344] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:55,347] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:57,401] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:57,429] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:39:57,696] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:39:57,700] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:39:59,750] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:39:59,777] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:00,058] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:00,061] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:40:03,116] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:40:03,147] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:03,418] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:03,420] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:40:08,503] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:40:08,531] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:08,799] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:08,802] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:40:13,904] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:40:13,936] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:14,193] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:14,196] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:40:20,288] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:40:20,315] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:20,583] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:20,586] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:40:22,640] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:40:22,668] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:22,938] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:22,941] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:40:32,094] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:40:32,122] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:32,382] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:32,385] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:40:48,602] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:40:48,629] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:48,925] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:48,928] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:40:54,010] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:40:54,038] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:54,328] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:54,331] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:40:58,406] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:40:58,432] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:40:58,689] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:40:58,692] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:01,751] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:01,777] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:02,033] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:02,036] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:03,074] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:03,108] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:03,371] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:03,374] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:12,539] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:12,565] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:12,840] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:12,843] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:14,898] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:14,926] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:15,193] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:15,196] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:19,269] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:19,296] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:19,570] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:19,573] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:21,626] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:21,654] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:21,928] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:21,931] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:22,971] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:23,005] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:23,283] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:23,287] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:24,325] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:24,352] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:24,638] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:24,640] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:34,786] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:34,814] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:35,111] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:35,113] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:37,161] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:37,189] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:37,476] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:37,478] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:40,549] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:40,576] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:40,855] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:40,857] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:41,897] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:41,928] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:42,220] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:42,223] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:47,315] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:47,345] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:47,622] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:47,625] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:48,677] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:48,704] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:48,990] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:48,993] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:51,064] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:51,098] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:51,375] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:51,378] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:54,435] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:54,463] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:54,758] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:54,761] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:55,801] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:55,833] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:56,110] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:56,113] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:41:59,167] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:41:59,193] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:41:59,480] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:41:59,483] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:05,581] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:05,611] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:05,892] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:05,894] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:09,979] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:10,006] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:10,259] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:10,262] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:13,325] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:13,354] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:13,627] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:13,629] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:17,706] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:17,741] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:18,016] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:18,019] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:20,069] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:20,102] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:20,389] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:20,392] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:25,478] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:25,511] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:25,788] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:25,791] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:47,105] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:47,135] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:47,413] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:47,416] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:55,547] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:55,574] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:55,842] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:55,845] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:56,879] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:56,909] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:57,190] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:57,192] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:42:58,235] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:42:58,263] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:42:58,531] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:42:58,534] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:00,578] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:00,604] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:00,863] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:00,866] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:06,966] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:06,995] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:07,265] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:07,268] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:14,373] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:14,404] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:14,686] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:14,689] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:19,791] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:19,833] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:20,105] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:20,108] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:23,167] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:23,195] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:23,465] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:23,468] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:25,518] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:25,545] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:25,833] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:25,837] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:30,935] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:30,964] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:31,259] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:31,263] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:37,363] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:37,391] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:37,643] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:37,646] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:40,741] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:40,772] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:41,024] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:41,027] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:45,099] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:45,126] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:45,398] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:45,400] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:50,488] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:50,515] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:50,786] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:50,790] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:51,825] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:51,852] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:52,139] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:52,141] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:55,202] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:55,242] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:55,522] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:55,526] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:43:59,607] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:43:59,635] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:43:59,932] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:43:59,936] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:03,008] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:03,035] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:03,297] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:03,299] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:09,426] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:09,454] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:09,712] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:09,714] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:11,763] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:11,790] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:12,062] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:12,065] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:13,098] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:13,127] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:13,407] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:13,411] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:16,483] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:16,510] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:16,769] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:16,772] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:18,838] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:18,865] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:19,116] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:19,119] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:21,166] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:21,199] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:21,496] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:21,499] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:25,584] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:25,612] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:25,886] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:25,889] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:27,947] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:27,974] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:28,245] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:28,248] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:33,336] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:33,362] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:33,617] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:33,620] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:44:36,678] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:44:36,707] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:44:36,968] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:44:36,971] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:45:00,318] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:45:00,345] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:45:00,603] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:45:00,607] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:45:02,658] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:45:02,685] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:45:02,945] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:45:02,947] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:45:28,347] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:45:28,373] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:45:28,626] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:45:28,629] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:45:33,729] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:45:33,756] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:45:34,014] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:45:34,017] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:45:40,120] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:45:40,147] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:45:40,401] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:45:40,404] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:45:41,437] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:45:41,464] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:45:41,744] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:45:41,747] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:46:15,246] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:46:15,274] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:46:15,528] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:46:15,531] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:46:18,597] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:46:18,624] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:46:18,877] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:46:18,880] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:46:30,046] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:46:30,073] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:46:30,328] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:46:30,332] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:46:36,422] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:46:36,451] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:46:36,734] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:46:36,737] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:46:43,844] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:46:43,872] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:46:44,144] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:46:44,147] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:46:49,257] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:46:49,294] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:46:49,568] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:46:49,571] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:46:52,634] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:46:52,661] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:46:52,932] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:46:52,934] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:02,095] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:02,122] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:02,398] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:02,400] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:09,516] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:09,543] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:09,796] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:09,799] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:11,852] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:11,880] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:12,145] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:12,148] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:19,269] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:19,295] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:19,558] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:19,561] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:27,695] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:27,729] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:27,999] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:28,002] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:30,059] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:30,085] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:30,354] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:30,356] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:31,389] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:31,416] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:31,683] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:31,685] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:33,736] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:33,763] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:34,018] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:34,021] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:40,136] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:40,162] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:40,446] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:40,449] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:42,505] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:42,541] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:42,820] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:42,822] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:44,878] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:44,913] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:45,200] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:45,204] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:46,261] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:46,290] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:46,551] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:46,554] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:54,673] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:54,699] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:54,957] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:54,959] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:47:55,997] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:47:56,025] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:47:56,284] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:47:56,287] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:48:00,382] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:48:00,409] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:48:00,682] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:48:00,684] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:48:03,748] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:48:03,774] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:48:04,030] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:48:04,033] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:48:06,087] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:48:06,113] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:48:06,365] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:48:06,368] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:48:17,558] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:48:17,584] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:48:17,867] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:48:17,870] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:49:13,685] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:49:13,713] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:49:13,990] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:49:13,993] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:49:17,055] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:49:17,083] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:49:17,341] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:49:17,344] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:49:20,402] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:49:20,431] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:49:20,715] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:49:20,718] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:49:25,821] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:49:25,853] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:49:26,131] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:49:26,134] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:49:31,222] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:49:31,254] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:49:31,525] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:49:31,528] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:49:42,706] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:49:42,736] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:49:42,992] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:49:42,994] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:49:47,059] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:49:47,088] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:49:47,368] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:49:47,370] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:49:51,450] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:49:51,487] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:49:51,763] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:49:51,766] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:49:53,826] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:49:53,852] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:49:54,110] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:49:54,113] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:01,224] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:01,251] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:01,528] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:01,530] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:02,567] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:02,609] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:02,892] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:02,895] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:09,012] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:09,044] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:09,319] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:09,322] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:10,357] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:10,384] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:10,664] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:10,666] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:12,725] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:12,756] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:13,032] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:13,034] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:19,139] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:19,169] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:19,449] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:19,452] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:26,567] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:26,594] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:26,872] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:26,875] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:28,937] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:28,964] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:29,245] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:29,248] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:34,328] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:34,360] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:34,642] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:34,645] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:40,750] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:40,780] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:41,070] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:41,072] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:48,190] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:48,220] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:48,505] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:48,508] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:53,607] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:53,635] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:53,920] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:53,922] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:50:56,990] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:50:57,017] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:50:57,290] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:50:57,293] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:51:02,378] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:51:02,406] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:51:02,695] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:51:02,697] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:51:09,832] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:51:09,861] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:51:10,127] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:51:10,130] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:51:44,612] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:51:44,640] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:51:44,900] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:51:44,903] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:51:48,982] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:51:49,009] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:51:49,307] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:51:49,310] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:51:51,360] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:51:51,387] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:51:51,659] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:51:51,662] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:51:53,720] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:51:53,747] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:51:54,006] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:51:54,009] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:04,155] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:04,186] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:04,462] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:04,465] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:05,500] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:05,528] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:05,806] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:05,809] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:08,882] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:08,909] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:09,175] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:09,177] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:16,310] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:16,349] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:16,632] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:16,635] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:20,723] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:20,749] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:21,006] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:21,009] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:23,067] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:23,094] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:23,371] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:23,374] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:28,461] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:28,488] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:28,764] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:28,767] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:30,822] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:30,849] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:31,106] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:31,108] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:31,141] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:31,171] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:31,432] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:31,435] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:37,523] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:37,550] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:37,856] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:37,859] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:43,979] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:44,006] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:44,290] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:44,293] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:45,328] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:45,360] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:45,667] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:45,670] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:48,730] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:48,761] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:49,036] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:49,039] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:52:54,125] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:52:54,153] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:52:54,415] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:52:54,418] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:53:01,526] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:53:01,552] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:53:01,820] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:53:01,823] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:53:03,873] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:53:03,900] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:53:04,176] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:53:04,178] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:53:08,244] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:53:08,274] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:53:08,558] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:53:08,562] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:53:15,710] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:53:15,743] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:53:16,016] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:53:16,019] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:53:26,207] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:53:26,235] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:53:26,522] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:53:26,525] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:53:27,562] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:53:27,590] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:53:27,872] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:53:27,875] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:53:28,909] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:53:28,938] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:53:29,218] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:53:29,220] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 11:53:31,274] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 11:53:31,302] INFO in _internal:  * Restarting with stat
+[2026-04-16 11:53:31,574] WARNING in _internal:  * Debugger is active!
+[2026-04-16 11:53:31,577] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:13:59,145] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:13:59,181] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:13:59,538] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:13:59,541] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:14:02,610] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:14:02,636] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:14:02,893] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:14:02,896] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:14:06,971] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:14:07,004] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:24:36,340] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 12:24:36,340] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 12:24:36,341] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:24:36,597] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:24:36,600] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:24:38,969] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 12:24:38,969] INFO in flask_server: [GET] /
+[2026-04-16 12:24:38,978] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:24:38] "GET / HTTP/1.1" 200 -
+[2026-04-16 12:24:39,017] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:24:39] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 12:24:40,204] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:24:40] "[35m[1mGET /sungjuk_call HTTP/1.1[0m" 500 -
+[2026-04-16 12:24:40,217] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:24:40] "GET /sungjuk_call?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-04-16 12:24:40,219] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:24:40] "GET /sungjuk_call?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-04-16 12:24:40,242] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:24:40] "GET /sungjuk_call?__debugger__=yes&cmd=resource&f=console.png&s=mthdQ5JdpNRos76rVXMs HTTP/1.1" 200 -
+[2026-04-16 12:24:40,263] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:24:40] "GET /sungjuk_call?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-04-16 12:25:35,425] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 12:25:35,457] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:25:35,744] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:25:35,747] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:25:38,155] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:25:38] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 12:25:44,528] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:25:44] "[33mPOST /sungjuk_update HTTP/1.1[0m" 404 -
+[2026-04-16 12:25:46,718] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:25:46] "[33mPOST /sungjuk_delete HTTP/1.1[0m" 404 -
+[2026-04-16 12:26:08,725] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:26:08] "[33mGET /sungjuk_insert HTTP/1.1[0m" 404 -
+[2026-04-16 12:41:12,232] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:41:12,270] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:41:12,549] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:41:12,551] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:41:13,583] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:41:13,615] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:41:13,884] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:41:13,887] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:41:57,578] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:41:57,608] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:41:57,917] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:41:57,920] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:42:03,006] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:42:03,033] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:42:03,290] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:42:03,293] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:43:50,883] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 12:43:50,884] INFO in flask_server: [GET] /
+[2026-04-16 12:43:50,891] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:43:50] "GET / HTTP/1.1" 200 -
+[2026-04-16 12:43:50,934] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:43:50] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 12:43:52,919] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:43:52] "GET /item_create HTTP/1.1" 200 -
+[2026-04-16 12:43:54,522] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:43:54] "GET /item_crud HTTP/1.1" 200 -
+[2026-04-16 12:43:55,376] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:43:55] "GET /bootstraps HTTP/1.1" 200 -
+[2026-04-16 12:45:15,549] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:45:15] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 12:45:21,975] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:45:21] "[33mPOST /sungjuk_update HTTP/1.1[0m" 404 -
+[2026-04-16 12:45:24,414] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:45:24] "GET /sungjuk_insert HTTP/1.1" 200 -
+[2026-04-16 12:45:42,833] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:45:42] "POST /sungjuk_insert HTTP/1.1" 200 -
+[2026-04-16 12:45:45,771] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:45:45] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 12:48:49,225] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:48:49,254] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:48:49,523] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:48:49,526] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:52:19,583] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:52:19,611] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:52:19,906] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:52:19,909] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:52:22,981] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:52:23,017] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:55:38,364] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 12:55:38,364] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 12:55:38,365] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:55:38,621] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:55:38,624] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:55:40,048] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 12:55:40,049] INFO in flask_server: [GET] /
+[2026-04-16 12:55:40,056] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:55:40] "GET / HTTP/1.1" 200 -
+[2026-04-16 12:55:40,096] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:55:40] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 12:55:42,224] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:55:42] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 12:55:46,315] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:55:46] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 12:56:03,648] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:56:03] "[35m[1mPOST /sungjuk_update_action HTTP/1.1[0m" 500 -
+[2026-04-16 12:56:03,665] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:56:03] "GET /sungjuk_update_action?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-04-16 12:56:03,666] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:56:03] "GET /sungjuk_update_action?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-04-16 12:56:03,689] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:56:03] "GET /sungjuk_update_action?__debugger__=yes&cmd=resource&f=console.png&s=CWvkXE7UwEV377mgQ9h5 HTTP/1.1" 200 -
+[2026-04-16 12:56:03,710] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:56:03] "GET /sungjuk_update_action?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-04-16 12:56:48,623] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:56:48,656] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:56:48,918] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:56:48,922] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:57:00,123] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:57:00,151] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:57:00,426] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:57:00,429] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:57:06,529] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:57:06,560] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:57:06,830] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:57:06,833] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:57:08,885] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:57:08,913] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:57:09,189] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:57:09,192] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:57:10,699] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:57:10] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 12:57:56,897] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:57:56,926] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:57:57,200] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:57:57,202] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:57:59,253] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 12:57:59,281] INFO in _internal:  * Restarting with stat
+[2026-04-16 12:57:59,584] WARNING in _internal:  * Debugger is active!
+[2026-04-16 12:57:59,587] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 12:57:59,605] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:57:59] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:03,667] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:03] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:05,182] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:32,923] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:33,726] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:33] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:33,748] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:40,276] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:40] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:40,307] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:56,154] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:57,695] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:57] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 12:58:57,717] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:58:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 12:59:55,232] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:59:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 12:59:56,006] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:59:56] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 12:59:56,029] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 12:59:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:20:47,355] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:20:47] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 13:20:51,773] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:20:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:21:00,120] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:21:00] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 13:21:00,151] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:21:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:21:00,625] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:21:00] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 13:21:00,643] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:21:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:21:01,083] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:21:01] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 13:21:01,116] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:21:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:24:08,561] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:24:08] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 13:24:08,595] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:24:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:24:10,157] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:24:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:24:11,430] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:24:11] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 13:24:11,452] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:24:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:24:12,390] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:24:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:24:16,702] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:24:16] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 13:24:16,724] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:24:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:25:38,889] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 13:25:38,920] INFO in _internal:  * Restarting with stat
+[2026-04-16 13:25:39,206] WARNING in _internal:  * Debugger is active!
+[2026-04-16 13:25:39,209] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 13:25:42,348] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:25:42] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 13:25:42,381] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:25:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:25:43,321] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:25:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:25:44,167] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:25:44] "[33mPOST /sungjuk_update_action HTTP/1.1[0m" 404 -
+[2026-04-16 13:25:44,188] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:25:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:25:45,198] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:25:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:26:33,983] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 13:26:34,014] INFO in _internal:  * Restarting with stat
+[2026-04-16 13:26:34,283] WARNING in _internal:  * Debugger is active!
+[2026-04-16 13:26:34,286] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 13:27:12,769] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 13:27:12,802] INFO in _internal:  * Restarting with stat
+[2026-04-16 13:27:13,115] WARNING in _internal:  * Debugger is active!
+[2026-04-16 13:27:13,118] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 13:27:20,225] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 13:27:20,254] INFO in _internal:  * Restarting with stat
+[2026-04-16 13:27:20,533] WARNING in _internal:  * Debugger is active!
+[2026-04-16 13:27:20,536] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 13:27:28,078] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 13:27:28,078] INFO in flask_server: [GET] /
+[2026-04-16 13:27:28,088] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:28] "GET / HTTP/1.1" 200 -
+[2026-04-16 13:27:28,105] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:27:28,138] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:28] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 13:27:29,350] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 13:27:29,351] INFO in flask_server: [GET] /
+[2026-04-16 13:27:29,352] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:29] "GET / HTTP/1.1" 200 -
+[2026-04-16 13:27:29,369] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:27:29,375] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:29] "GET /static/images/logo.jpg HTTP/1.1" 200 -
+[2026-04-16 13:27:29,432] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-04-16 13:27:42,402] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:42] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 13:27:45,553] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:45] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 13:27:51,172] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:51] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 13:27:53,837] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:53] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 13:27:56,100] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:27:56] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 13:28:11,821] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:28:11] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 13:28:19,183] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:28:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:29:06,906] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 13:29:06,939] INFO in _internal:  * Restarting with stat
+[2026-04-16 13:29:07,210] WARNING in _internal:  * Debugger is active!
+[2026-04-16 13:29:07,213] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 13:29:25,994] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:25] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 13:29:26,016] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:29:29,390] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:29] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 13:29:29,410] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:29:31,758] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:31] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 13:29:31,787] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:29:33,880] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:33] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 13:29:33,904] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:29:36,655] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:36] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 13:29:36,674] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:29:41,367] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:41] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 13:29:41,388] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:29:43,862] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:43] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 13:29:43,883] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:29:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:30:19,183] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 13:30:19,212] INFO in _internal:  * Restarting with stat
+[2026-04-16 13:30:19,482] WARNING in _internal:  * Debugger is active!
+[2026-04-16 13:30:19,485] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 13:30:21,532] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 13:30:21,562] INFO in _internal:  * Restarting with stat
+[2026-04-16 13:30:21,843] WARNING in _internal:  * Debugger is active!
+[2026-04-16 13:30:21,845] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 13:30:24,989] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:30:24] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 13:30:25,010] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:30:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:30:25,051] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:30:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-04-16 13:30:26,863] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:30:26] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 13:30:26,883] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:30:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:30:32,623] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:30:32] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 13:30:32,648] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:30:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:30:36,876] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:30:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:32:34,211] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:32:34] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 13:32:34,238] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:32:34] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:32:37,593] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:32:37] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 13:32:37,614] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:32:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:32:39,837] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:32:39] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 13:32:39,862] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:32:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:32:44,244] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:32:44] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 13:32:44,270] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:32:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:55:12,303] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 13:55:12,304] INFO in flask_server: [GET] /
+[2026-04-16 13:55:12,306] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:55:12] "GET / HTTP/1.1" 200 -
+[2026-04-16 13:55:12,324] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:55:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:55:12,358] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:55:12] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 13:55:12,579] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:55:12] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 13:55:14,736] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:55:14] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 13:55:14,753] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:55:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 13:55:17,390] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:55:17] "[33mPOST /sungjuk_delete HTTP/1.1[0m" 404 -
+[2026-04-16 13:55:21,769] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:55:21] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 13:55:39,200] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 13:55:39,229] INFO in _internal:  * Restarting with stat
+[2026-04-16 13:59:48,305] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 13:59:48,305] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 13:59:48,306] INFO in _internal:  * Restarting with stat
+[2026-04-16 13:59:48,563] WARNING in _internal:  * Debugger is active!
+[2026-04-16 13:59:48,566] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 13:59:49,886] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 13:59:49,887] INFO in flask_server: [GET] /
+[2026-04-16 13:59:49,894] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:59:49] "GET / HTTP/1.1" 200 -
+[2026-04-16 13:59:49,933] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:59:49] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 13:59:52,324] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:59:52] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 13:59:54,049] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:59:54] "[35m[1mPOST /sungjuk_delete HTTP/1.1[0m" 500 -
+[2026-04-16 13:59:54,060] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:59:54] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-04-16 13:59:54,061] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:59:54] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-04-16 13:59:54,083] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:59:54] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png&s=lNTRpf1PQ9uu3ouLETs5 HTTP/1.1" 200 -
+[2026-04-16 13:59:54,106] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 13:59:54] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-04-16 14:01:30,174] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:01:30,210] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:01:30,489] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:01:30,493] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:01:33,555] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:01:33,584] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:01:33,850] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:01:33,853] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:01:34,885] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:01:34,912] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:01:35,168] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:01:35,171] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:02:48,588] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:02:48,617] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:04:25,494] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 14:04:25,494] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 14:04:25,495] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:04:25,757] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:04:25,760] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:04:27,561] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 14:04:27,562] INFO in flask_server: [GET] /
+[2026-04-16 14:04:27,570] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:04:27] "GET / HTTP/1.1" 200 -
+[2026-04-16 14:04:27,611] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:04:27] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 14:04:29,629] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:04:29] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:04:30,874] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:04:30] "[35m[1mPOST /sungjuk_delete HTTP/1.1[0m" 500 -
+[2026-04-16 14:04:30,885] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:04:30] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 14:04:30,886] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:04:30] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-16 14:04:30,894] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:04:30] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png&s=2n61kqvT6fnCuyVDYNSP HTTP/1.1" 200 -
+[2026-04-16 14:04:57,196] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:04:57,227] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:04:57,493] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:04:57,496] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:05:05,620] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:05:05,650] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:07:33,117] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 14:07:33,118] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 14:07:33,119] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:07:33,379] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:07:33,382] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:07:34,761] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 14:07:34,762] INFO in flask_server: [GET] /
+[2026-04-16 14:07:34,769] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:07:34] "GET / HTTP/1.1" 200 -
+[2026-04-16 14:07:34,809] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:07:34] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 14:07:36,909] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:07:36] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:07:38,013] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:07:38] "[35m[1mPOST /sungjuk_delete HTTP/1.1[0m" 500 -
+[2026-04-16 14:07:38,024] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:07:38] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 14:07:38,025] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:07:38] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-16 14:07:38,030] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:07:38] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png&s=qRHVdX7513INyBRgqMZI HTTP/1.1" 200 -
+[2026-04-16 14:07:38,065] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:07:38] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2026-04-16 14:14:31,854] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:14:31,885] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:20:16,459] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 14:20:16,459] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 14:20:16,460] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:20:16,718] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:20:16,720] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:20:18,939] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 14:20:18,940] INFO in flask_server: [GET] /
+[2026-04-16 14:20:18,947] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:18] "GET / HTTP/1.1" 200 -
+[2026-04-16 14:20:18,985] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:18] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 14:20:19,013] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-04-16 14:20:23,510] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:23] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:20:29,259] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:29] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 14:20:34,278] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:34] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:20:35,142] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:35] "[35m[1mPOST /sungjuk_delete HTTP/1.1[0m" 500 -
+[2026-04-16 14:20:35,153] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:35] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 14:20:35,154] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:35] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-16 14:20:35,160] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:35] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png&s=a8QU7hqvSefpU9pC5iaX HTTP/1.1" 200 -
+[2026-04-16 14:20:35,193] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:20:35] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2026-04-16 14:31:22,640] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:31:22,671] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:31:22,948] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:31:22,952] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:31:31,074] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:31:31,103] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:31:31,376] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:31:31,378] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:31:33,423] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:31:33,452] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:31:33,743] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:31:33,746] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:31:58,106] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:31:58,133] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:32:50,530] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 14:32:50,531] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 14:32:50,532] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:32:50,798] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:32:50,801] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:32:51,708] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:32:51] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:32:51,773] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:32:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-04-16 14:32:55,078] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:32:55] "[35m[1mPOST /sungjuk_delete HTTP/1.1[0m" 500 -
+[2026-04-16 14:32:55,133] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:32:55] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-16 14:32:55,133] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:32:55] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 14:32:55,155] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:32:55] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png&s=V4OntVjuKFdOLXoMMGWP HTTP/1.1" 200 -
+[2026-04-16 14:35:27,764] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:35:27] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 14:35:42,304] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:35:42] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 14:35:45,837] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:35:45] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:35:50,114] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:35:50] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 14:35:55,086] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:35:55] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 14:35:57,618] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:35:57] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:36:41,279] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:36:41,309] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:36:41,588] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:36:41,591] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:36:42,625] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:36:42,655] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:36:42,975] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:36:42,979] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:36:46,043] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:36:46,077] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:36:46,383] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:36:46,386] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:36:47,429] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:36:47,458] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:36:47,726] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:36:47,729] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:36:57,887] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:36:57,918] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:36:58,195] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:36:58,198] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:38:19,330] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:38:19,362] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:38:19,664] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:38:19,666] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:40:02,085] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:40:02,116] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:40:02,411] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:40:02,414] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:40:22,714] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:40:22,743] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:40:23,018] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:40:23,020] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:41:02,570] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:41:02,603] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:41:02,871] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:41:02,874] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:41:06,945] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:41:06,975] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:41:27,707] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 14:41:27,707] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 14:41:27,709] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:41:27,965] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:41:27,967] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:41:29,604] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 14:41:29,605] INFO in flask_server: [GET] /
+[2026-04-16 14:41:29,613] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:29] "GET / HTTP/1.1" 200 -
+[2026-04-16 14:41:29,652] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:29] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 14:41:31,793] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:31] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:41:34,070] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:34] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 14:41:46,718] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:46] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 14:41:50,477] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:50] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:41:52,140] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:52] "[35m[1mPOST /sungjuk_delete HTTP/1.1[0m" 500 -
+[2026-04-16 14:41:52,153] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:52] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 14:41:52,153] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:52] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-16 14:41:52,174] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:41:52] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png&s=GMKKkKUePBNQkS83nqsB HTTP/1.1" 200 -
+[2026-04-16 14:45:04,250] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:45:04,283] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:45:04,629] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:45:04,632] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:45:13,776] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:45:13,813] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:46:51,197] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 14:46:51,197] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 14:46:51,199] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:46:51,461] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:46:51,463] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:46:52,946] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 14:46:52,947] INFO in flask_server: [GET] /
+[2026-04-16 14:46:52,954] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:46:52] "GET / HTTP/1.1" 200 -
+[2026-04-16 14:46:52,993] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:46:52] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 14:46:55,236] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:46:55] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:46:57,443] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:46:57] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 14:47:02,350] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:47:02] "[35m[1mPOST /sungjuk_update_result HTTP/1.1[0m" 500 -
+[2026-04-16 14:47:02,363] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:47:02] "GET /sungjuk_update_result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-04-16 14:47:02,365] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:47:02] "GET /sungjuk_update_result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-04-16 14:47:02,384] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:47:02] "GET /sungjuk_update_result?__debugger__=yes&cmd=resource&f=console.png&s=rgHjuihxXaHpxiXZxSu6 HTTP/1.1" 200 -
+[2026-04-16 14:47:02,407] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:47:02] "GET /sungjuk_update_result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-04-16 14:47:20,864] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:47:20,897] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:47:52,852] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 14:47:52,853] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 14:47:52,854] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:47:53,112] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:47:53,115] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:47:54,586] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 14:47:54,586] INFO in flask_server: [GET] /
+[2026-04-16 14:47:54,594] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:47:54] "GET / HTTP/1.1" 200 -
+[2026-04-16 14:47:54,636] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:47:54] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 14:47:56,582] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:47:56] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:47:59,977] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:47:59] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 14:48:04,250] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:48:04] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 14:48:09,670] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:48:09] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:48:14,455] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:48:14] "[35m[1mPOST /sungjuk_delete HTTP/1.1[0m" 500 -
+[2026-04-16 14:48:14,467] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:48:14] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 14:48:14,468] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:48:14] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-16 14:48:14,490] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:48:14] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png&s=kNc5Epz9BKUK5c0xahbe HTTP/1.1" 200 -
+[2026-04-16 14:49:32,401] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:49:32,442] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:49:32,732] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:49:32,735] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:49:39,216] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:49:39] "[35m[1mPOST /sungjuk_delete HTTP/1.1[0m" 500 -
+[2026-04-16 14:49:39,269] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:49:39] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 14:49:39,270] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:49:39] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-16 14:49:39,280] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:49:39] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png&s=H0uQJ4Zemm3HmQk22iDL HTTP/1.1" 200 -
+[2026-04-16 14:49:46,934] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 14:49:46,962] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:49:47,229] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:49:47,232] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:51:26,308] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:51:26] "POST /sungjuk_update HTTP/1.1" 200 -
+[2026-04-16 14:51:34,307] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:51:34] "POST /sungjuk_update_result HTTP/1.1" 200 -
+[2026-04-16 14:55:39,881] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjuk.py', reloading
+[2026-04-16 14:55:39,912] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:59:36,272] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.25:5000
+[2026-04-16 14:59:36,272] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-16 14:59:36,273] INFO in _internal:  * Restarting with stat
+[2026-04-16 14:59:36,531] WARNING in _internal:  * Debugger is active!
+[2026-04-16 14:59:36,533] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 14:59:37,454] INFO in flask_server: 성공 logged in successfully
+[2026-04-16 14:59:37,455] INFO in flask_server: [GET] /
+[2026-04-16 14:59:37,463] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:59:37] "GET / HTTP/1.1" 200 -
+[2026-04-16 14:59:37,503] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:59:37] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+[2026-04-16 14:59:39,539] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:59:39] "GET /sungjuk_call HTTP/1.1" 200 -
+[2026-04-16 14:59:40,559] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:59:40] "[35m[1mPOST /sungjuk_delete HTTP/1.1[0m" 500 -
+[2026-04-16 14:59:40,570] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:59:40] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 14:59:40,570] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:59:40] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-16 14:59:40,592] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:59:40] "GET /sungjuk_delete?__debugger__=yes&cmd=resource&f=console.png&s=fGkNxkATx9Ffyp31pBB0 HTTP/1.1" 200 -
+[2026-04-16 14:59:48,422] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:59:48] "[36mGET /sungjuk_delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-16 14:59:48,435] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 14:59:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 15:00:10,922] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 15:00:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 15:00:10,958] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 15:00:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 15:03:57,057] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 15:03:57,099] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:03:57,376] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:03:57,378] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:04:06,548] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 15:04:06,583] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:04:06,850] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:04:06,853] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:04:10,938] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 15:04:10,965] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:04:11,234] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:04:11,236] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:04:22,502] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 15:04:22,556] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:04:22,826] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:04:22,829] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:05:45,439] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:05:45,473] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:05:45,745] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:05:45,747] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:05:48,835] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:05:48,869] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:05:49,138] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:05:49,141] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:06:17,217] INFO in _internal: 127.0.0.1 - - [16/Apr/2026 15:06:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2026-04-16 15:06:41,250] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:06:41,285] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:06:41,565] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:06:41,568] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:06:44,626] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:06:44,670] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:06:44,958] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:06:44,961] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:06:49,061] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:06:49,097] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:06:49,379] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:06:49,382] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:06:51,444] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:06:51,474] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:06:51,746] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:06:51,749] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:06:57,874] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:06:57,908] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:06:58,196] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:06:58,199] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:07:08,386] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:07:08,417] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:07:08,690] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:07:08,693] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:07:12,780] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:07:12,814] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:07:13,089] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:07:13,092] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:07:55,922] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:07:55,958] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:07:56,220] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:07:56,222] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:07:57,259] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:07:57,287] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:07:57,543] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:07:57,546] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:08:52,717] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:08:52,755] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:08:53,043] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:08:53,046] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:08:57,135] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\dao\\sungjukone.py', reloading
+[2026-04-16 15:08:57,167] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:08:57,452] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:08:57,455] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:09:53,692] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 15:09:53,730] INFO in _internal:  * Restarting with stat
+[2026-04-16 15:09:54,064] WARNING in _internal:  * Debugger is active!
+[2026-04-16 15:09:54,067] INFO in _internal:  * Debugger PIN: 806-293-909
+[2026-04-16 15:10:06,342] INFO in _internal:  * Detected change in 'C:\\ex_flaskserver\\flask_server.py', reloading
+[2026-04-16 15:10:06,371] INFO in _internal:  * Restarting with stat

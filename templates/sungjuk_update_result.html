@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block explain_contents %}
+
+   {% if result_int == 0 %}
+      <div>{{  result_int }} </div>
+      <center> 실패하였습니다. </center>
+   {% else %}
+      <center> 성공하였습니다.  </center>
+   {% endif %}
+   
+<a href="/sungjuk_call" > 데이터 보기 </a>
+{% endblock explain_contents %}

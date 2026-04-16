@@ -9,6 +9,9 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField ,SubmitField 
 from wtforms.validators import InputRequired, Length
 
+from dao import sungjuk #dao디렉토리에서 sungjuk을 임포트해라 => module import
+from dao import sungjukone
+
 dictConfig({ #서버에 무슨일이 생기면 기록을 남길건데, 어떻게 남길지
     'version': 1,
     'formatters': { #[날짜] 등급이름 : 메시지 식으로 나옴
@@ -210,14 +213,85 @@ def bootstraps():
 
 @app.route('/ajaxcall')
 def ajaxcall():
-    return render_template('ajax.html')
+    return render_template('ajaxcall.html')
 
-@app.route('/_add_numbers')
+@app.route('/_add_numbers') #get방식 요청 데이터 처리
 def add_numbers():
     a = request.args.get('a', 0, type=int)
     b = request.args.get('b', 0, type=int)
-    #{'result:30}
-    return jsonify(result = a + b)
+
+    return jsonify(result = a + b) #{result: 값 30}
+
+#라우트 정의함수
+@app.route('/sungjuk_call')
+def sungjuk_call() :
+    result = sungjuk.getSungjuk()
+    return render_template('sungjuk.html', object_list = result)
+
+#inset함수
+@app.route("/sungjuk_insert", methods=['GET', 'POST'])
+def sungjuk_insert():
+    if request.method == 'GET':
+        return render_template("sungjuk_insert.html")
+    elif request.method == 'POST':
+        name = request.form.get('name1')
+        kor  = request.form.get('kor1')
+        mat  = request.form.get('mat1')
+        eng  = request.form.get('eng1')
+        schoolcode = request.form.get('schoolcode1')        
+        sungdata = {
+            'name': name, 
+            'kor': kor, 
+            'mat': mat, 
+            'eng': eng, 
+            'schoolcode': schoolcode
+        }
+        result_int = sungjuk.setSungjuk(sungdata)
+        return render_template("sungjuk_insert_result.html", result_int=result_int)
+
+@app.route("/sungjuk_update", methods=['POST'])
+def sungjuk_update():
+    if request.method == 'POST':
+        bunho = request.form['bunho']
+        result=sungjuk.getBunhoSungjuk(bunho)
+        return render_template("sungjuk_update.html", object_list=result)
+
+@app.route("/sungjuk_update_result", methods=['POST'])
+def sungjuk_update_result():
+    result_int = 0
+    if request.method == 'POST':
+        bunho = request.form['bunho']
+        name = request.form['name']
+        print("controller", bunho, name)
+        result_int=sungjuk.update_Bunho_Name(bunho ,name)
+        return  render_template("sungjuk_update_result.html", result_int = result_int)
+
+@app.route("/sungjuk_delete", methods=['POST'])
+def sungjuk_delete():
+    result_int = 0
+    if request.method == 'POST':
+        bunho = request.form['bunho']
+        result = sungjuk.getBunhoSungjuk(bunho)
+        return  render_template("sungjuk_delete.html", object_int = result)
+
+
+@app.route("/sungjuk_delete_result", methods=['POST'])
+def sungjuk_delete_result():
+    result_int = 0
+    if request.method == 'POST':
+        bunho = request.form['bunho'] 
+        result_int = sungjuk.delete_sungjuk(bunho)
+        return render_template("sungjuk_delete_result.html", result_int = result_int)
+
+
+#ajax으로 
+@app.rout("/sungjukone_call")
+def sungjukone_call():
+    result = sungjukone.getSungjuk()
+    return render_template("sungjukone.html", object_list = result)
+
+
+
 
 if __name__ == '__main__': #얘가 메인페이지면 flask서버를 기동해라
     app.run('0.0.0.0', port=5000, debug=True, use_reloader=True) #debug면 에러가 나면 브라우저에 설명을 달아라 (개발할때 필요), 
